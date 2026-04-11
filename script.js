@@ -5,3 +5,8 @@ function getRandomInt(min, max) {
   let random = getRandomInt(1, 100);
   console.log(random); 
 
+  let input = 
+
+  input.addEventListener('input', (click) => {
+    console.log('Текущий текст:', event.target.value);
+  });

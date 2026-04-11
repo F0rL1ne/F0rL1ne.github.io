@@ -9,7 +9,14 @@
     <script src='script.js'></script>
     <h4> Суть проста - мы загадываем число, а Ваша задача угадать его при помощи подсказок </h4>
     <h2> Начать</h2>
-    <input type="text" id="myInput" placeholder="Введите текст...">
-    <button id="myButton">Отправить</button>
+    <input type="text" id="myInput">
+    <button onclick="getData()">Получить</button>
+    <script>
+        function getData() {
+            let val = document.getElementById('myInput').value; // Получение значения
+            console.log(val);
+        }
+      <div id="result"></div>
+    </script
   </body>
 </html>
