@@ -1,1 +1,38 @@
-background-color: black;
+h1 {
+    font-size: 1.7em;
+    font-family: 'Press Start 2P', pixel-fonts;
+    color: rgb(255, 255, 255); /* Цвет текста */
+    text-align: center;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        -webkit-user-drag: none;
+        user-select: none;
+        background: black;
+
+        }
+    h2 {
+        font-size: 1.7em;
+        font-family: 'Press Start 2P', pixel-fonts;
+        color: rgb(255, 255, 255); /* Цвет текста */
+        text-align: center;
+    }
+    h4 {
+        font-size: 1.7em;
+        font-family: 'Press Start 2P', pixel-fonts;
+        color: rgb(255, 255, 255); /* Цвет текста */
+        text-align: center;
+    }
+    button {
+        display: flex;
+        margin: 0 auto;
+
+    }
+    input {
+        display: flex;
+        margin: 0 auto;
+    }
